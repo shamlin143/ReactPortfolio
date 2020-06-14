@@ -3,9 +3,10 @@ import { Typography } from "@material-ui/core";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { useStyles } from "./Experience.styles";
 import { Element } from "react-scroll";
-// Add these line to create dynamic image/info cards
-// import { exp } from "../../configs/Experience.js";
-// import ExperienceCard from "../ExperienceCard/ExperienceCard.component.jsx";
+ //Add these line to create dynamic image/info cards;
+ import { exp } from "../../../src/Configs/Experience";
+ import ExperienceCard from "../Experience/ExperienceCard/ExperienceCard.component.jsx";
+ //import ExperienceCard from "../Experience/ExperienceCard/ExperienceCard.component";
 
 function Experience() {
   const classes = useStyles();
@@ -21,9 +22,9 @@ function Experience() {
         display="block"
         align="center"
       >
-        <Element name="experience">Work Experience</Element>        
+        <Element name="experience">Experience</Element>        
       </Typography>
-      <p>
+      {/* <p>
           I started out building computers and then move into system administration. From there I moved in to networking and became a CCNA, CCNP network engineer. I also worked with load balancers (F5) Checkpoint firewalls on Nokias.{<br></br>}
       </p>
       <p>
@@ -37,9 +38,9 @@ function Experience() {
       </p>
       <p>
          I am now taking Javascript bootcamp at UTSA to learn all aspects of fullstack development. This is where I hope to excel over time and make a permanent career. 
-      </p>
+      </p> */}
 
-      {/* <div className={classes.expContainer}>
+      { <div className={classes.expContainer}>
         {exp.map(e => {
           return (
             <ExperienceCard
@@ -51,7 +52,7 @@ function Experience() {
             />
           );
         })}
-      </div> */}
+      </div> }
     </React.Fragment>
   );
 }

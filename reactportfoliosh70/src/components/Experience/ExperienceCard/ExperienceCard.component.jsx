@@ -1,5 +1,6 @@
 import React from "react";
 import { useStyles } from "./ExperienceCard.styles";
+import exp from "../../../Configs/Experience";
 
 export default function ExperienceCard({ title, date, desc, img }) {
   const classes = useStyles();

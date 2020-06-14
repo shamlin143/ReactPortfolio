@@ -1,52 +1,46 @@
   
-import corefactors from "../assets/experience/corefactors.jpg";
 export const exp = [
   {
-    title: "UI ENGINEER",
-    date: "COREFACTORS , BANGALORE -JUNE 2019 - PRESENT",
+    title: "Safety Officer - Consultant",
+    date: "San Antonio, Texas -JUNE 2016 - PRESENT",
     desc: [
-      "Developing new user-facing features using React.js",
-      "Built and Maintain websites",
-      "Design as per given UX.",
-      "Translating designs and wireframes into high quality code",
-      "Apply best practices and modern technologies",
-      "Collaborate with team in designing and implementing new UI",
-      "CI/CD deployments using Jenkins",
-      "Unit Test using jest"
-    ],
-    img: corefactors
+      "Created Policies, Procedure and Audited companies and sites",
+      "Created safety programs including MSA,DOT and all policies for internal operations",
+      "Implement policies and procedures to insure companies were in OSHA and RRComission compliance"
+     ],
+    img: "https://shamlin143.github.io/PortfolioRefresh3/oilfield.jpeg"
   },
   {
-    title: "WEB DEVELOPER - FREELANCE",
-    date: "JUNE 2017 - PRESENT",
+    title: "Junior Ruby Developer",
+    date: "Atlanta, Georgia Remote March 2016/2019",
     desc: [
-      "Built maintained website for social community",
-      "Fixing errors and developing features in open source",
-      "Ensured site adhered to brand guidlines",
-      "Optimizing components for maximum performance"
-    ],
+      "Manipulated data for internal staff to support external customers",
+      "Created scripts to obtain patient data reports for company use"
+       ],
     img:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      "https://shamlin143.github.io/PortfolioRefresh3/RubyonRails.jpeg"
   },
   {
-    title: "PRODUCTION AND QUALITY ENGINEER",
-    date: "AL QAHTANI PIPE COATING CO.LTD , DAMMAM KSA- OCT 2016 - MAY 2019",
+    title: "HCC Consulting",
+    date: "Bergheim, Texas January 2010-Present",
     desc: [
-      "Item coated and welded with utmost efficiency",
-      "Quality lead meetings with workforce and labors",
-      "Assigning duties Ensured safety and minimized hazards"
+      "Designed and intalled campus networks for Companies",
+      "Designed implemented and maintined Data Center customers",
+      "Diagnosed networks and internet presence for companies and improved redsigned or secured their applications"
+      
     ],
     img:
-      "https://images.unsplash.com/photo-1533750088811-7a8b16218df7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      "https://shamlin143.github.io/PortfolioRefresh3/datacenter.jpeg"
   },
   {
-    title: "SALES ENGINEER",
-    date: "VOLTAS INDIA CO.LTD , COCHIN - JUNE 2015- MAY 2016",
+    title: "Senor Ciso Network Engineer",
+    date: "Austin, Texas May 1999 - 2010 ",
     desc: [
-      "Oversaw contracts with clients, contractors and suppliers",
-      " Prepared HVAC BOQ"
+      "Designed, implemented, maintained, updated - Ecommerce purchasing card Corprate Lan, Datacenter, Backup Facilities",
+      " Cisco,Checkpoint,F5,"
     ],
     img:
-      "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      "https://shamlin143.github.io/PortfolioRefresh3/Cisco.jpeg"
   }
 ];
+export default exp;

@@ -17,13 +17,13 @@ export const useStyles = makeStyles({
     padding: "10px 30px",
     "& p": {
       fontFamily: "'Work Sans', 'sans-serif'",
-      fontSize: ".8em",
+      fontSize: "15px",
       lineHeight: "1em",
       margin: "5px 0"
     },
     "& h4": {
       fontFamily: "'Work Sans', 'sans-serif'",
-      fontSize: "1em",
+      fontSize: "25px",
       margin: "5px 0"
     },
     "&:hover": {
@@ -37,8 +37,8 @@ export const useStyles = makeStyles({
     position: "relative",
     objectFit: "fill",
     bottom: "300px",
-    width: "300px",
-    height: "300px",
+    width: "320px",
+    height: "320px",
     transition: ".5s",
     "&:hover": {
       opacity: 0

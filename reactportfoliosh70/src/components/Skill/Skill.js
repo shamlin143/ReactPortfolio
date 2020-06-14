@@ -5,6 +5,7 @@ import { Element } from "react-scroll";
 
 import skillList from "../../utils/skill-list";
 
+
 export default function Skill({ skill }) {
   return (
     <React.Fragment>
@@ -38,4 +39,5 @@ export default function Skill({ skill }) {
       </div>
     </React.Fragment>
   );
+
 }
