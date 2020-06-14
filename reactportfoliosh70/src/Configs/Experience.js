@@ -1,12 +1,12 @@
   
 export const exp = [
   {
-    title: "Safety Officer - Consultant",
+    title: "Safety Officer/Consultant",
     date: "San Antonio, Texas -JUNE 2016 - PRESENT",
     desc: [
       "Created Policies, Procedure and Audited companies and sites",
-      "Created safety programs including MSA,DOT and all policies for internal operations",
-      "Implement policies and procedures to insure companies were in OSHA and RRComission compliance"
+      "Created safety programs including MSA,DOT and all policies for  operations",
+      " Verfied companies were in OSHA and RRComission compliance"
      ],
     img: "https://shamlin143.github.io/PortfolioRefresh3/oilfield.jpeg"
   },
@@ -33,7 +33,7 @@ export const exp = [
       "https://shamlin143.github.io/PortfolioRefresh3/datacenter.jpeg"
   },
   {
-    title: "Senor Ciso Network Engineer",
+    title: "Senior Ciso Network Engineer",
     date: "Austin, Texas May 1999 - 2010 ",
     desc: [
       "Designed, implemented, maintained, updated - Ecommerce purchasing card Corprate Lan, Datacenter, Backup Facilities",
