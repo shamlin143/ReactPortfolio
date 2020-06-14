@@ -57,8 +57,7 @@ function resume(){
 	console.log("go to resume url.")
 }
 function linkedIn(){
-	// return {resume1.pdf};
-	// return (<a href="https://www.linkedin.com/in/scott-hamlin-646bb712"  class="nav-link">Linkedin</a>);
+    return (<a href="https://www.linkedin.com/in/scott-hamlin-646bb712"  class="nav-link">Linkedin</a>);
 	console.log("go to LinkedIn url.")
 }
 

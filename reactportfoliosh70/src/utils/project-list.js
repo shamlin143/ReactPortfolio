@@ -1,7 +1,7 @@
 let project_list = [
 	{
 		image:
-			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/Assets/Foodtruck.jpeg',
+			'https://shamlin143.github.io/foodTruckLocate/Foodtruck.jpeg',
 		title: 'Food Truck Locator',
 		des:
 			"This is a front-Stack app using Jquery, Bootstrap, HTML, CSS and JSON for api calls.The purpose is to help people locate food trucks in the vicinty based on type of food popularity and provides directions to the Trucks location.",
@@ -13,7 +13,7 @@ let project_list = [
 	},
 	{
 		image:
-			"https://github.com/shamlin143/PortfolioRefresh3/blob/master/Quarantinment2.png",
+			" https://shamlin143.github.io/Project_Two/Quarantinment2.png",
 		title: 'Quarentainment',
 		des:
 			"This is a Full Stack Project using ExpressJS and Passport (NodeJS) Development of a Social Media App. Passport allows for password authentication and hashing of the password and username for privacy. Also, it allows entered usernames, password and responses to be saved in a MySQL database. The purpose of this app is to allow a place for people to visit during the 'shut-in' time of being in quarantine, due to Covid-19.", 
@@ -25,7 +25,7 @@ let project_list = [
 	},
 	{  
 		image:
-			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/workoutTracker.jpeg',
+			' https://shamlin143.github.io/PortfolioRefresh3/workoutTracker.png',
 		title: 'Workout Tracker',
 		des:
 			"This is a Full Stack Project that allows a user to add an exercise and its parameters to be saved in the MongoDB using Mongoose.  It then will chart the daily data as well as the parameters (time of exercise, number of reps, etc). It also used 'Moment' to allow for real time and date recording of when the data/exercises were performed.",
@@ -37,7 +37,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/EmployeeList.jpeg',
+			'https://shamlin143.github.io/PortfolioRefresh3/EmployeeList.png',
 		title: 'Employee Directory',
 		des:
 			"This is a Full-Stack React App.  It uses various components to create the various parts of the app.  Its purpose is to return a list of all the people in a bussiness.  It will then allow one to sort the people by first name, last name, gender, email and age.  It utilized the 'usestate' and 'useContext' hook.  Employees are propagated with the 'randomuser.me' api.",
@@ -49,7 +49,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/BudgetTracker.jpeg',
+			'https://shamlin143.github.io/PortfolioRefresh3/BudgetTracker.png',
 		title: 'Budget Tracker',
 		des:
 			"This is a PWA (Progressive Web App).  A PWA allows for on line and offline storage of saved data.  When the app first loads, it saves main files in cache allowing for this app to run in offline mode.  While offline, the entered data is stored in cache as well.  When the app goes back on line, it will upload the data to the MongoDB. It utilizes 'compression' in order to keep file sizes down, allowing for faster laods as well. This app allows for one to enter name and amount of expenses.  It then totals them and keeps a running budget total.",
@@ -61,7 +61,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/Assets/IMAGE%203-17-20%20AT%204.06%20PM.jpeg',
+			'https://shamlin143.github.io/PortfolioRefresh3/Weathermap.jpeg',
 		title: 'Weather Dashboard',
 		des:
 			"This is a Front-Stack App that allows one to look up the weather anywhere in the world.  It uses 'openweathermap.org' api in order to return the temperature, humidity, wind, UV index, as well as a 5 day forcast.  It uses moment to keep the date and time of the request current as well as to request future weather for the 5 day forcast.  ",
