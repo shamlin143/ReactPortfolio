@@ -1,7 +1,7 @@
 let project_list = [
 	{
 		image:
-			'https://dritchie3.github.io/AboutMe/Images/getFed.png',
+			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/Assets/Foodtruck.jpeg',
 		title: 'GetFed Recipe App',
 		des:
 			"This is a front-Stack app using Jquery, Bootstrap, HTML, CSS and JSON for api calls.The purpose is to help one decide on a meal based on the ingredients in the cupboard. You get home and want to make a meal but don’t have an idea of what to make. This is where GetFed gets you started. Get recipes based on ingredients, items on hand, or restrictions. If you’re hungry, GetFed. This App utilized the 'Edemam.com api'. It allows one to enter as many ingredients as they like and the app will return a list of choices based on what can be made with the ingredients on hand.",
@@ -13,7 +13,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://dritchie3.github.io/AboutMe/Images/quarentainment.png',
+			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/Assets/HamburgerBlogger.jpeg',
 		title: 'Quarentainment',
 		des:
 			"This is a Full Stack Project using ExpressJS and Passport (NodeJS) Development of a Social Media App. Passport allows for password authentication and hashing of the password and username for privacy. Also, it allows entered usernames, password and responses to be saved in a MySQL database. The purpose of this app is to allow a place for people to visit during the 'shut-in' time of being in quarantine, due to Covid-19.", 
@@ -61,7 +61,7 @@ let project_list = [
 	},
 	{
 		image:
-			'https://dritchie3.github.io/AboutMe/Images/weatherDash.png',
+			'https://github.com/shamlin143/PortfolioRefresh3/blob/master/Assets/IMAGE%203-17-20%20AT%204.06%20PM.jpeg',
 		title: 'Weather Dashboard',
 		des:
 			"This is a Front-Stack App that allows one to look up the weather anywhere in the world.  It uses 'openweathermap.org' api in order to return the temperature, humidity, wind, UV index, as well as a 5 day forcast.  It uses moment to keep the date and time of the request current as well as to request future weather for the 5 day forcast.  ",

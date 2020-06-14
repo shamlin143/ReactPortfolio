@@ -24,16 +24,19 @@ function Experience() {
         <Element name="experience">Work Experience</Element>        
       </Typography>
       <p>
-          I am a serial entrepreneur with experience starting and operating 5 businesses in the last 30 years. I love to learn! I started as a Sales Agent at American General Life and Accident Insurance Co. Then I took over R&S Computers. This was a VAR (value added resale) company focusing on computer hardware and solutions. This company’s focus was to research and provide turn-key and out of the box solutions to shipping companies world-wide. We were a Compaq service provider. This meant we were authorized for warranty repair of Compaq servers and systems. I became an MCSE (Microsoft Certified Software Engineer) for NT. This was a requirement to becoming a Compaq Engineer.{<br></br>}
+          I started out building computers and then move into system administration. From there I moved in to networking and became a CCNA, CCNP network engineer. I also worked with load balancers (F5) Checkpoint firewalls on Nokias.{<br></br>}
       </p>
       <p>
-          I Started DBRI Properties L.L.C. in 1998. This is a property holding company that’s focus was and still is to purchase properties to rent and hold to provide a housing solution. It taught me the systems to manage and operate within the housing rental markets.
+          From there I moved into IT managment and Netowrk design and administration with multiple datacenters for E commerce companies.
       </p>
       <p>
-          From there, I ran and operated the GlassDoctor of San Antonio L.L.C. This was a glass repair company that replaces or installs residential, industrial and auto glass. Although the industry was different then what I had previously done, I found that my skills from earlier businesses transferred very easily.
+          I later found the desire to work in Programming and did very junior Ruby Development mainly manipulating data for a Biomedical company.
       </p>
       <p>
-          Back issues forced me to change my focus. Loving the computer industry since I was very young it seemed the logical solution for my next work chapter. I am currently enrolled in UTSA’s software development bootcamp. I have found this to be so rewarding and fun. I love the satisfaction of completing a project. It has allowed me the challenge of learning new technologies and applying them to everyday problems. The best part, is that every day is a new challenge. I can’t wait to apply these skills to enable others to realize there business potential.
+          I later moved in to the Oilfied Safety operations and created implemented and monitored MSA's for commpanies and helped to bring them into compliance with OSHA, The Railroad comission and other oilfield agencies
+      </p>
+      <p>
+         I am now taking Javascript bootcamp at UTSA to learn all aspects of fullstack development. This is where I hope to excel over time and make a permanent career. 
       </p>
 
       {/* <div className={classes.expContainer}>

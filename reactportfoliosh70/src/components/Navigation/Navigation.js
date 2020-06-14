@@ -15,6 +15,7 @@ import './Navigation.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AppsIcon from '@material-ui/icons/Apps';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
+import { Document, Page } from 'react-pdf';
 
 
 
@@ -51,13 +52,13 @@ function a11yProps(index) {
 }
 
 function resume(){
-	// return {resume1};
-	// <a href="https://dritchie3.github.io/AboutMe/resume1.pdf" target="_blank" class="nav-link">Resume'</a>
+	// return {resume1.pdf};
+	// <a href="https://" target="_blank" class="nav-link">Resume'</a>
 	console.log("go to resume url.")
 }
 function linkedIn(){
-	// return {resume1};
-	// return (<a href="https://www.linkedin.com/in/douglas-ritchie-672214198"  class="nav-link">Linkedin</a>);
+	// return {resume1.pdf};
+	// return (<a href="https://www.linkedin.com/in/scott-hamlin-646bb712"  class="nav-link">Linkedin</a>);
 	console.log("go to LinkedIn url.")
 }
 

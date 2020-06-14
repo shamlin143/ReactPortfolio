@@ -1,6 +1,6 @@
   
 import React from "react";
-import portfolio from "../../utils/portfolio.png";
+import portfolio from "../../utils/portfolio.jpg";
 import { Typography } from "@material-ui/core";
 import "./AboutMe.css";
 
