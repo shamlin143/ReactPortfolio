@@ -13,7 +13,7 @@ import Box from '@material-ui/core/Box';
 import Scroll,{ animateScroll as scroll} from 'react-scroll'
 import AppsIcon from '@material-ui/icons/Apps';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
-import { Document, Page } from 'react-pdf';
+
 
 
 
@@ -76,22 +76,47 @@ function a11yProps(index) {
 // 	  );
 // 	}
 //   }
-function Resume() {
-	const [Document] = useState();
-	Document(Document);
-	function onDocumentLoadSuccess() {
-	} 
+
+function resume(){
 	return (
-	  <div>
-		<Document
-		  url="resume1.pdf"
-		  onLoadSuccess={onDocumentLoadSuccess}
-		>
-				</Document>
-		<p>Resume  {Document} </p>
-	  </div>
-	);
-  }
+		<div>
+			{window.open("https://shamlin143.github.io/PortfolioRefresh3/ScottResume.pdf")}
+			{console.log("go to resume url.")}
+		</div>
+	)
+}
+
+
+
+
+
+
+// function Resume() {
+// 	const [Document] = useState();
+// 	Document(Document);
+// 	function onDocumentLoadSuccess() {
+// 	} 
+// 	return (
+// 	  <div>
+// 		<Document
+// 		  url="resume1.pdf"
+// 		  onLoadSuccess={onDocumentLoadSuccess}
+// 		>
+// 				</Document>
+// 		<p>Resume  {Document} </p>
+// 	  </div>
+// 	);
+//   }
+
+function linkedIn(){
+	return (
+		<div>
+			{window.open("https://www.linkedin.com/in/scott-hamlin-646bb712")}
+			{console.log("go to LinkedIn url.")}
+		</div>
+	)
+	
+}
   
 
 
@@ -160,8 +185,9 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("projects")} label='Projects' icon={<AppsIcon />} {...a11yProps(1)} />
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
-					<Tab  onClick={()=>scrollFunc("Resume")} label='Resume' icon={<CallToActionIcon />} {...a11yProps(4)}/> 
-					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(5)} />
+					<Tab  onClick={()=>resume()} label='Resume' icon={<CallToActionIcon />}/> 
+					{/* <Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<LinkedInIcon />}/>  */}
+					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
@@ -180,6 +206,9 @@ var scroller = Scroll.scroller;
 				Resume
 			</TabPanel>
 			<TabPanel value={value} index={5}>
+				LinkedIn
+			</TabPanel>
+			<TabPanel value={value} index={6}>
 				contact-me
 			</TabPanel>
 		</div>
