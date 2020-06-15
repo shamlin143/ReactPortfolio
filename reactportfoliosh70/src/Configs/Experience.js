@@ -33,7 +33,7 @@ export const exp = [
       "https://shamlin143.github.io/PortfolioRefresh3/datacenter.jpeg"
   },
   {
-    title: "Senior Ciso Network Engineer",
+    title: "Senior Ciso Network Engineer BA",
     date: "Austin, Texas May 1999 - 2010 ",
     desc: [
       "Designed, implemented, maintained, updated - Ecommerce purchasing card Corprate Lan, Datacenter, Backup Facilities",

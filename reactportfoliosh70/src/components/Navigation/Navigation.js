@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -16,9 +16,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AppsIcon from '@material-ui/icons/Apps';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
 import { Document, Page } from 'react-pdf';
-
-
-
+import resume from "../../assets/resume/resume1.pdf";
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -50,16 +48,35 @@ function a11yProps(index) {
 		
 	};
 }
+function Resume() {
+	const [Document] = useState();
+	function onDocumentLoadSuccess({ Document }) {
+	  Document(Document);
+	} 
+	return (
+	  <div>
+		<Document
+		  file="resume1.pdf"
+		  onLoadSuccess={onDocumentLoadSuccess}
+		>
+		  {/* <Page pageNumber={pageNumber} /> */}
+		</Document>
+		<p>Resume  {Document} </p>
+	  </div>
+	);
+  }
+  
+function linkedIn () {
+	function handleClick(e) {
+		 e.preventDefault();
+		console.log('The link was clicked.');
+	  }	
+	  return (
+		<a href="https://www.linkedin.com/in/scott-hamlin-646bb712" onClick={handleClick}> 
+		</a>		
+	  );
+	 }
 
-function resume(){
-	// return {resume1.pdf};
-	// <a href="https://" target="_blank" class="nav-link">Resume'</a>
-	console.log("go to resume url.")
-}
-function linkedIn(){
-    return (<a href="https://www.linkedin.com/in/scott-hamlin-646bb712"  class="nav-link">Linkedin</a>);
-	console.log("go to LinkedIn url.")
-}
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -126,9 +143,9 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("projects")} label='Projects' icon={<AppsIcon />} {...a11yProps(1)} />
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
-					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<LinkedInIcon />} />
-					<Tab  onClick={()=>resume()} label='Resume' icon={<CallToActionIcon />}  />
-					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(4)} />
+					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<LinkedInIcon />} {...a11yProps(4)}/>
+					<Tab  onClick={()=>Resume()} label='Resume' icon={<CallToActionIcon />}  {...a11yProps(5)}/> 
+					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
@@ -144,7 +161,13 @@ var scroller = Scroll.scroller;
 				Skill
 			</TabPanel>
 			<TabPanel value={value} index={4}>
-
+				Linkedin
+			</TabPanel>
+			<TabPanel value={value} index={5}>
+				Resume
+			</TabPanel>
+			<TabPanel value={value} index={6}>
+				contact-me
 			</TabPanel>
 		</div>
 	);
