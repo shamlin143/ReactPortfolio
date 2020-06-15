@@ -143,7 +143,6 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("projects")} label='Projects' icon={<AppsIcon />} {...a11yProps(1)} />
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
-					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<LinkedInIcon />} {...a11yProps(4)}/>
 					<Tab  onClick={()=>Resume()} label='Resume' icon={<CallToActionIcon />}  {...a11yProps(5)}/> 
 					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
 				</Tabs>
@@ -159,9 +158,6 @@ var scroller = Scroll.scroller;
 			</TabPanel>
 			<TabPanel value={value} index={3}>
 				Skill
-			</TabPanel>
-			<TabPanel value={value} index={4}>
-				Linkedin
 			</TabPanel>
 			<TabPanel value={value} index={5}>
 				Resume

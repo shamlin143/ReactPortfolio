@@ -8,7 +8,7 @@ import {
   Typography,
   IconButton
 } from "@material-ui/core";
-import { Info, Launch, GitHub } from "@material-ui/icons";
+import { Info, Launch, GitHub , LinkedIn } from "@material-ui/icons";
 import InfoModal from "../InfoModal/InfoModal";
 import "./ProjectCard.css";
 
@@ -115,9 +115,16 @@ export default function ProjectCard({ project }) {
             href={project.links.github}
           >
             <GitHub />
-          </IconButton>
+            </IconButton>
+            <IconButton
+            title="See Code"
+            aria-label="Source Code On Github"
+            href={project.links.linkedin}
+          >
+            <LinkedIn/>
+            </IconButton>
         </CardActions>
       </Card>
     </Grid>
-  );
+      );
 }

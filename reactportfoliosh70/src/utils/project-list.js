@@ -8,7 +8,8 @@ let project_list = [
 		tags: [ 'HTML', 'CSS', 'Bootstrap', 'Jquery','Json' ],
 		links: {
 			launch: ' https://shamlin143.github.io/foodTruckLocate/',
-			github: 'https://github.com/shamlin143/foodTruckLocate'
+			github: 'https://github.com/shamlin143/foodTruckLocate',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	},
 	{
@@ -20,7 +21,8 @@ let project_list = [
 		tags: [ 'HTML', 'CSS','Nodejs', 'express','Jquery','Bootstrap' ],
 		links: {
 			launch: 'https://quarintainment2.herokuapp.com/',
-			github: 'https://github.com/shamlin143/Project_Two'
+			github: 'https://github.com/shamlin143/Project_Two',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	},
 	{  
@@ -32,7 +34,8 @@ let project_list = [
 		tags: [ 'HTML', 'CSS', 'Nodejs', 'Mongoose', 'Mongo'],
 		links: {
 			launch: 'https://workout-tracker-final-ed.herokuapp.com/?id=5ecef7670caa2a0017bf238b',
-			github: 'https://github.com/shamlin143/WorkoutTracker'
+			github: 'https://github.com/shamlin143/WorkoutTracker',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	},
 	{
@@ -44,7 +47,8 @@ let project_list = [
 		tags: [ 'HTML', 'CSS', 'React', 'JavaScript', 'JQuery' ],
 		links: {
 			launch: 'https://employeedirectorysh3.herokuapp.com/.',
-			github: 'https://github.com/shamlin143/EmployeeDirectory'
+			github: 'https://github.com/shamlin143/EmployeeDirectory',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	},
 	{
@@ -56,7 +60,8 @@ let project_list = [
 		tags: ['HTML','express','Mongoose', 'Pwa' ],
 		links: {
 			launch: 'https://agile-citadel-39045.herokuapp.com/',
-			github: 'https://github.com/shamlin143/budgettrackerhw'
+			github: 'https://github.com/shamlin143/budgettrackerhw',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	},
 	{
@@ -68,7 +73,8 @@ let project_list = [
 		tags: ['HTML', 'CSS', 'JavaScript', 'Json' ],
 		links: {
 			launch: 'https://shamlin143.github.io/API-Weathermap/',
-			github: 'https://github.com/shamlin143/API-Weathermap'
+			github: 'https://github.com/shamlin143/API-Weathermap',
+			linkedin: 'https://linkedin.com/in/scott-hamlin-646bb712'
 		}
 	}
 ];
