@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Component } from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -11,12 +11,12 @@ import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded'
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Scroll,{ animateScroll as scroll} from 'react-scroll'
-import './Navigation.css';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AppsIcon from '@material-ui/icons/Apps';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
 import { Document, Page } from 'react-pdf';
-import resume from "../../assets/resume/resume1.pdf";
+
+
+
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -48,34 +48,51 @@ function a11yProps(index) {
 		
 	};
 }
+
+
+// class MyApp extends Component {
+// 	state = {
+// 	  numPages: null,
+// 	  pageNumber: 1,
+// 	}
+   
+// 	onDocumentLoadSuccess = ({ numPages }) => {
+// 	  this.setState({ numPages });
+// 	}
+   
+// 	render() {
+// 	  const { pageNumber, numPages } = this.state;
+   
+// 	  return (
+// 		<div>
+// 		  <Document
+// 			url="https://shamlin143.github.io/PortfolioRefresh3/ScottResume.jpeg"
+// 			onLoadSuccess={this.onDocumentLoadSuccess}
+// 		  >
+// 			<Page pageNumber={pageNumber} />
+// 		  </Document>
+// 		  <p>Page {pageNumber} of {numPages}</p>
+// 		</div>
+// 	  );
+// 	}
+//   }
 function Resume() {
 	const [Document] = useState();
-	function onDocumentLoadSuccess({ Document }) {
-	  Document(Document);
+	Document(Document);
+	function onDocumentLoadSuccess() {
 	} 
 	return (
 	  <div>
 		<Document
-		  file="resume1.pdf"
+		  url="resume1.pdf"
 		  onLoadSuccess={onDocumentLoadSuccess}
 		>
-		  {/* <Page pageNumber={pageNumber} /> */}
-		</Document>
+				</Document>
 		<p>Resume  {Document} </p>
 	  </div>
 	);
   }
   
-function linkedIn () {
-	function handleClick(e) {
-		 e.preventDefault();
-		console.log('The link was clicked.');
-	  }	
-	  return (
-		<a href="https://www.linkedin.com/in/scott-hamlin-646bb712" onClick={handleClick}> 
-		</a>		
-	  );
-	 }
 
 
 const useStyles = makeStyles((theme) => ({
@@ -143,8 +160,8 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("projects")} label='Projects' icon={<AppsIcon />} {...a11yProps(1)} />
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
-					<Tab  onClick={()=>Resume()} label='Resume' icon={<CallToActionIcon />}  {...a11yProps(5)}/> 
-					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
+					<Tab  onClick={()=>scrollFunc("Resume")} label='Resume' icon={<CallToActionIcon />} {...a11yProps(4)}/> 
+					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(5)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
@@ -159,10 +176,10 @@ var scroller = Scroll.scroller;
 			<TabPanel value={value} index={3}>
 				Skill
 			</TabPanel>
-			<TabPanel value={value} index={5}>
+			<TabPanel value={value} index={4}>
 				Resume
 			</TabPanel>
-			<TabPanel value={value} index={6}>
+			<TabPanel value={value} index={5}>
 				contact-me
 			</TabPanel>
 		</div>

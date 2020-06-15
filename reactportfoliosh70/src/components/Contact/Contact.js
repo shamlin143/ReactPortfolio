@@ -20,7 +20,7 @@ export default function ContactForm() {
 
     axios({
       method: "POST",
-      url: "URLOFBACKEND/email",
+      url: "http://localhost/contact",
       data: {
         name: name,
         email: email,
