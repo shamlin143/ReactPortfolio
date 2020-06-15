@@ -19,15 +19,8 @@ export default function ProjectCard({ project }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const updateDes = () => {
-    /* project.des.length is the no. of characters in the original description
-     * but due to card height being fixed, if the description is too long, it must
-     * be trimed. By measuring no. of characters and width of the description at several widths, I found
-     * description width = 1.3 * no. of characters (approx). The following math is a result of this.
-     * desRef.current.offsetWidth is the width of the description element. Used 13 instead of 1.3,
-     * by multipling both sides by 10. Also using 14.5 instead of 13 in division when calculating the
-     * length of the substring because 13 is not exact and sometimes the substring was still bigger.
-     * Hence, made it a little smaller by dividing by a 15 instead of 13.
-     */
+  
+     
     setDes(
       project.des.length * 13 <= desRef.current.offsetWidth * 10
         ? project.des

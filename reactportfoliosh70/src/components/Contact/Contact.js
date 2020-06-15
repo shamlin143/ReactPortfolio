@@ -55,30 +55,7 @@ export default function ContactForm() {
             borderRadius: "10px"
           }}
         >
-          {/* <TextField
-            label="Name"
-            type="text"
-            margin="normal"
-            variant="outlined"
-            id="name"
-            placeholder="Enter your name"
-          /> */}
-          {/* <TextField
-            label="Email"
-            type="email"
-            id="email"
-            margin="normal"
-            variant="outlined"
-            placeholder="Enter your email" */}
-          />
-          {/* <TextField
-            label="Message"
-            id="message"
-            multiline
-            margin="normal"
-            variant="outlined"
-            placeholder="Enter your message"
-          /> */}
+          
           <div
             style={{
               display: "flex",

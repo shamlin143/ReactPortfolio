@@ -49,34 +49,6 @@ function a11yProps(index) {
 	};
 }
 
-
-// class MyApp extends Component {
-// 	state = {
-// 	  numPages: null,
-// 	  pageNumber: 1,
-// 	}
-   
-// 	onDocumentLoadSuccess = ({ numPages }) => {
-// 	  this.setState({ numPages });
-// 	}
-   
-// 	render() {
-// 	  const { pageNumber, numPages } = this.state;
-   
-// 	  return (
-// 		<div>
-// 		  <Document
-// 			url="https://shamlin143.github.io/PortfolioRefresh3/ScottResume.jpeg"
-// 			onLoadSuccess={this.onDocumentLoadSuccess}
-// 		  >
-// 			<Page pageNumber={pageNumber} />
-// 		  </Document>
-// 		  <p>Page {pageNumber} of {numPages}</p>
-// 		</div>
-// 	  );
-// 	}
-//   }
-
 function resume(){
 	return (
 		<div>
@@ -85,28 +57,6 @@ function resume(){
 		</div>
 	)
 }
-
-
-
-
-
-
-// function Resume() {
-// 	const [Document] = useState();
-// 	Document(Document);
-// 	function onDocumentLoadSuccess() {
-// 	} 
-// 	return (
-// 	  <div>
-// 		<Document
-// 		  url="resume1.pdf"
-// 		  onLoadSuccess={onDocumentLoadSuccess}
-// 		>
-// 				</Document>
-// 		<p>Resume  {Document} </p>
-// 	  </div>
-// 	);
-//   }
 
 function linkedIn(){
 	return (
@@ -153,7 +103,7 @@ export default function ScrollableTabsButtonForce() {
 /* var Element = Scroll.Element; */
 var scroller = Scroll.scroller;
  
-// Somewhere else, even another file
+
 
 	const scrollFunc=(e)=>{
 		if(e==='about-me'){
