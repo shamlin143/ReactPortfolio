@@ -186,7 +186,7 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
 					<Tab  onClick={()=>resume()} label='Resume' icon={<CallToActionIcon />}/> 
-					{/* <Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<LinkedInIcon />}/>  */}
+					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<linkedInIcon />}/> 
 					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
 				</Tabs>
 			</AppBar>
