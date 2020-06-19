@@ -13,6 +13,7 @@ import Box from '@material-ui/core/Box';
 import Scroll,{ animateScroll as scroll} from 'react-scroll'
 import AppsIcon from '@material-ui/icons/Apps';
 import CallToActionIcon from '@material-ui/icons/CallToAction';
+import { GitHub } from '@material-ui/icons';
 
 
 
@@ -136,7 +137,7 @@ var scroller = Scroll.scroller;
 					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
 					<Tab  onClick={()=>resume()} label='Resume' icon={<CallToActionIcon />}/> 
-					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<linkedInIcon />}/> 
+					<Tab  onClick={()=>linkedIn()} label='LinkedIn' icon={<CallToActionIcon/>}/> 
 					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(6)} />
 				</Tabs>
 			</AppBar>

@@ -17,9 +17,7 @@ const AboutMe = () => {
           textTransform: "uppercase"
         }}
       >
-        {/*  <Element name="about-me" id="about-me">
-                About Me
-            </Element> */}
+ 
       </Typography>
       <div className="name">
         <img src={portfolio} alt="profile_photo" className="img" />
@@ -32,6 +30,7 @@ const AboutMe = () => {
           <br></br>
           <h3>I am a Full Stack Developer in Training.</h3>
           <h3>I am looking forward to working with a company I can grow with.</h3>
+          
 
           
         </div>

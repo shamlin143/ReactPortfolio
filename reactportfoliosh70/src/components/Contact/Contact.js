@@ -14,7 +14,7 @@ export default function ContactForm() {
   function send(){
     return (
       <div>
-        {window.open("mailto:shamlin@gvtc.com?subject=Porfolio Inquiry")}
+        {window.open("mailto:shalin@gvtc.com?subject=Porfolio Inquiry")}
         {console.log("go to mail url.")}
       </div>
     )

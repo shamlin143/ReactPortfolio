@@ -17,22 +17,7 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.post('/contact', function (req, res) {
-  var transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: "scottssigns8304462633@gmail.com",
-      pass: "heidijosh143!"
-    }
-  });
-  
-  var mailOptions = {
-    from: 'shamlin@gvtc.com',
-    to: 'michellbp@msn.com',
-    subject: 'Sending Email using Node.js',
-    text: 'That was easy!'
-  };
-  
+   
   transporter.sendMail(mailOptions, function(error, info){
     if (error) {
       console.log(error);
@@ -40,5 +25,5 @@ app.post('/contact', function (req, res) {
       console.log('Email sent: ' + info.response);
     }
   });
-});
+
 app.listen(port);
