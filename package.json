@@ -1,0 +1,23 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "ReactPortfolio # Unit 20 React Homework: React Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamlin143/ReactPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamlin143/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/shamlin143/ReactPortfolio#readme"
+}
