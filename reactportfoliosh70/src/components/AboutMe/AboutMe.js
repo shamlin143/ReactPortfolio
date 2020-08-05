@@ -28,9 +28,8 @@ const AboutMe = () => {
           <br></br>
           <br></br>
           <br></br>
-          <h3>I am a Full Stack Developer in Training.</h3>
-          <h3>I am looking forward to working with a company I can grow with.</h3>
-          
+          <h3>Technical IT professional with multiple technical certifications and a demonstrated track record in IT leadership, technical project management, strategy development, and strong governance models such as PCI and SOX. Proven ability to get the job done and provide “follow me” team leadership under challenging conditions. LAN/WAN networking expert with deep experience with call centers, IP networks, VoIP, LAN/WAN integration and load balancing. Extremely strong experience with implementation and upgrade of multiple data centers including in-house and collocated facilities with multiple vendors. I have just completed a JavaScript Boot Camp at UTSA. I am looking forward to finding a spot with a company I can work for and grow with.</h3>
+                
 
           
         </div>

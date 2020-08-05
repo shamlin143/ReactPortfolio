@@ -53,7 +53,7 @@ function a11yProps(index) {
 function resume(){
 	return (
 		<div>
-			{window.open("https://shamlin143.github.io/PortfolioRefresh3/ScottResume.pdf")}
+			{window.open("https://reactporfoliosh70.herokuapp.com/")}
 			{console.log("go to resume url.")}
 		</div>
 	)
