@@ -53,7 +53,7 @@ function a11yProps(index) {
 function resume(){
 	return (
 		<div>
-			{window.open("https://reactporfoliosh70.herokuapp.com/")}
+			{window.open("https://drive.google.com/file/d/1-XH89bDqES_dL33Z7EZea_1pvey13eol/view?usp=sharing")}
 			{console.log("go to resume url.")}
 		</div>
 	)
