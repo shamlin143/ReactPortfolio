@@ -23,7 +23,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "cd reactportfoliosh70 && npm run start",
-    "build": "cd reactportfoliosh70 && npm run build",
+    "build": "cd reactportfoliosh70 && npm run start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
