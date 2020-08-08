@@ -25,7 +25,8 @@
     "start": "cd reactportfoliosh70 && npm start",
     "build": "cd reactportfoliosh70 && npm start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
