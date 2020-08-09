@@ -10,9 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
     "nodemailer": "^6.4.8",
-    "npm": "^6.14.7",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
@@ -20,24 +18,28 @@
     "react-pdf": "^4.1.0",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
-    "reinstall": "^2.0.0",
+    "start": "^5.1.0",
     "typography": "^0.16.19"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shamlin143/ReactPortfolio.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shamlin143/ReactPortfolio/issues"
-  },
-  "homepage": "https://github.com/shamlin143/ReactPortfolio#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
